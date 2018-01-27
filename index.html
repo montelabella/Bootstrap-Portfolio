@@ -1,56 +1,80 @@
-<!doctype html>
-<html lang="en-us">
+<!DOCTYPE html>
+<html>
 
-<head>
-  <meta charset="UTF-8">
-  <title>About | Crystal Hughes</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<head lang="en">
+  <title>Crystal Hughes</title>
+
+  <link rel="stylesheet" type="text/css" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="assets/style.css">
 </head>
 
 <body>
-
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Crystal Hughes</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+  <!-- Navbar -->
+  <nav class="navbar navbar-defalut">
+    <div class="container-fluid" id="navbarWrapper">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html">
+          <h2>Crystal Hughes</h2>
+        </a>
+      </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active">
+          <a href="index.html">About</a>
+        </li>
+        <li>
+          <a href="portfolio.html" id="lineStyle">Portfolio</a>
+        </li>
+        <li>
+          <a href="contact.html">Contact</a>
+        </li>
+      </ul>
     </div>
-  </header>
+  </nav>
 
-  <div id="main-container" class="container">
-    <section class="main-section">
+
+  <div class="container-fluid" id="containerWrapper" <div class="row">
+    <div class="col-md-8" id="article">
       <h1>About Me</h1>
 
       <img src="assets/images/Crystal1.jpg" class="auth-image" alt="Crystal Hughes">
 
-      I am a lover of all Technology a Developer and a Social Media Junkie.
-			<br>
-			<br>
-			My all time favorite Movie Quote is "You're so Cool" from True Romance.
-			</p>
-			<p>
-			I love Technology!  Technology has shaped our lives, changed the way we travel, pay bills and basic everyday communication.  I enjoy being efficient and finding new ways to complete tasks. I want to be a part of building a technology that will  continue to shape and grow our future or find that <b>"something"</b> that just hasn't been done yet.
-    </section>
+      <p>I am a lover of all Technology a Developer and a Social Media Junkie.</p>
 
-    <section class="sidebar">
-      <div id="connect">
-        <h2>Connect with Me</h2>
-
-        <a href="https://github.com/montelabella" target="_blank"><img src="assets/images/if_social-github_216082.png" class="social" alt="GitHub" /></a>
-        <a href="www.linkedin.com/in/crystal-hughes-62300978"><img src="assets/images/if_Linkedin_Solid_1435169.png" class="social" alt="LinkedIn" /></a>
-        <a href="https://stackoverflow.com/users/9108731/montelabella"><img src="assets/images/if_stackoverflow-2048-black_167631.png" class="social" alt="Stack Overflow" /></a>
-      </div>
-    </section>
-  </div>
-
-  <footer>
-    <div class="container">
-      Copyright &copy; 2018 Crystal Hughes
+      <p>My all time favorite Movie Quote is "You're so Cool" from True Romance.</p>
+      <p>I love Technology! Technology has shaped our lives, changed the way we travel, pay bills and basic everyday communication.
+        I enjoy being efficient and finding new ways to complete tasks. I want to be a part of building a technology that
+        will continue to shape and grow our future or find that
+        <b>"something"</b> that just hasn't been done yet.</p>
     </div>
+    <div class="col-md-4" id="aside">
+      <h2>Connect with Me</h2>
+      <hr>
+      <ul class="socialTags">
+        <li><a href="https://github.com/montelabella" target="_blank">
+          <img src="assets/images/if_social-github_216082.png" class="social" alt="GitHub">
+          </a>
+        </li>
+      <li>
+        <a href="www.linkedin.com/in/crystal-hughes-62300978">
+          <img src="assets/images/if_Linkedin_Solid_1435169.png" class="social" alt="LinkedIn" />
+        </a>
+        </li>
+        <li>
+        <a href="https://stackoverflow.com/users/9108731/montelabella">
+          <img src="assets/images/if_stackoverflow-2048-black_167631.png" class="social" alt="Stack Overflow" />
+        </a>
+        </li>
+        </ul>
+        </div>
+        </div>
+    </div>
+
+<footer class="footer">
+      Copyright &copy; 2018 Crystal Hughes
   </footer>
 </body>
 
